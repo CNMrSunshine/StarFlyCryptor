@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include "syscalls.h"
 #include "starfly.h"
-#include <locale.h>
 
 DWORD_PTR GetSystemTimeAddr = 0;
 DWORD_PTR NtQuerySystemTimeAddr = 0;
